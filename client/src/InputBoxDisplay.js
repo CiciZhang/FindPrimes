@@ -5,7 +5,7 @@ class InputBoxDisplay extends Component {
     constructor() {
         super()
         this.state = {
-            primeOutput: [],
+            primeOutput: [".", ".", "."],
             numInput: ""
         }
     }
