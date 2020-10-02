@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.display {
+  background: rgb(206, 206, 240);
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: space-around;
+}
+
+h1 {
+  color: rgb(63, 63, 117);
+}
+
+.numInput {
+  margin-bottom: 30px;
+}
+
+button {
+  background: white;
+  border: 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: yellow;
+}
+
+.output {
+  border: 2px solid white;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  padding: 50px 0px;
+  width: 300px;
+  border-radius: 5px;
+}
